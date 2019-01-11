@@ -1,0 +1,12 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <fragment
+    android:id="@+id/message_content_fragment"
+    android:name="com.example.hp.yushannote.MessageContentFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    />
+</LinearLayout>

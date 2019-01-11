@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/star_bg"
+    >
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/title_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <RelativeLayout android:id="@+id/nonhistory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/result_top_bar"
+        android:layout_above="@id/result_tab_bar"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="你来到了没有记忆的荒原..."
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:textSize="15sp"
+            android:textColor="@color/text_topbar"
+            />
+    </RelativeLayout>
+</RelativeLayout>
